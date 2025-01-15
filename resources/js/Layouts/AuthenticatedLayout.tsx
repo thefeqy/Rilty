@@ -1,9 +1,5 @@
-import ApplicationLogo from '@/Components/ApplicationLogo';
-import Dropdown from '@/Components/Dropdown';
-import NavLink from '@/Components/NavLink';
-import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
-import { Link, usePage } from '@inertiajs/react';
-import {Fragment, PropsWithChildren, ReactNode, useState} from 'react';
+import { usePage } from '@inertiajs/react';
+import {Fragment, PropsWithChildren, ReactNode} from 'react';
 import {AppSidebar} from "@/Components/app-sidebar";
 import {SidebarInset, SidebarProvider, SidebarTrigger} from "@/Components/ui/sidebar";
 import {Separator} from "@/Components/ui/separator";
@@ -23,8 +19,7 @@ export default function Authenticated({
   breadcrumbs,
   children,
 }: PropsWithChildren<{ header?: ReactNode, breadcrumbs?: BreadcrumbType[] }>) {
-    const user = usePage().props.auth.user;
-
+    
     return (
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
             <SidebarProvider>

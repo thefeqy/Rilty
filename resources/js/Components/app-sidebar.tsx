@@ -9,7 +9,7 @@ import {
     Map,
     PieChart,
     Settings2,
-    SquareTerminal, UserCheckIcon,
+    SquareTerminal,
 } from "lucide-react"
 
 import {NavMain} from "@/Components/nav-main"

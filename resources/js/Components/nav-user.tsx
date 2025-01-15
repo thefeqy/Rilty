@@ -12,7 +12,6 @@ import {
 import {
     Avatar,
     AvatarFallback,
-    AvatarImage,
 } from "@/Components/ui/avatar"
 import {
     DropdownMenu,
