@@ -71,7 +71,7 @@ class TelescopeServiceProvider extends TelescopeApplicationServiceProvider
 
     protected function authorization()
     {
-        Auth::setDefaultDriver('admin');
+//        Auth::setDefaultDriver('admin');
         parent::authorization();
     }
 
