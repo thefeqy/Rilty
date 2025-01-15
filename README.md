@@ -1,4 +1,5 @@
-# Rilty
+⚠️ **Beta Release**  
+Rilty is under active development. Frequent updates and breaking changes may occur.
 
 **Rilty** is a modern, full-stack starter kit designed to accelerate your web development projects. Built with cutting-edge technologies, Rilty provides a solid foundation for creating dynamic, responsive, and scalable applications.
 
