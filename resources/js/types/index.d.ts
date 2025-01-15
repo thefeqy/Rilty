@@ -7,6 +7,10 @@ export interface User {
     email_verified_at?: string;
 }
 
+export type BreadcrumbType = {
+    title: string;
+    link?: string;
+}
 export interface Admin {
     id: number;
     name: string;
