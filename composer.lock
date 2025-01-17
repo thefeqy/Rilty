@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a839e30e28810607ecf06c362355743f",
+    "content-hash": "00b4df161443c62ba8ba74009f0d0b7d",
     "packages": [
         {
             "name": "brick/math",
@@ -5732,6 +5732,57 @@
                 }
             ],
             "time": "2024-11-08T15:48:14+00:00"
+        },
+        {
+            "name": "thefeqy/laravel-model-status",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thefeqy/laravel-model-status.git",
+                "reference": "760b9ddceff3fd1e71e4aa270e3c5b2ae78c01be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thefeqy/laravel-model-status/zipball/760b9ddceff3fd1e71e4aa270e3c5b2ae78c01be",
+                "reference": "760b9ddceff3fd1e71e4aa270e3c5b2ae78c01be",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^10.0|^11.0",
+                "illuminate/http": "^10.0|^11.0",
+                "illuminate/routing": "^10.0|^11.0",
+                "illuminate/support": "^10.0|^11.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Thefeqy\\ModelStatus\\LaravelModelStatusServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Thefeqy\\ModelStatus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammed Elfeqy",
+                    "email": "thefeqy@gmail.com"
+                }
+            ],
+            "description": "A Laravel package to automate adding configurable status columns to models and migrations, and enforce user activity through middleware.",
+            "support": {
+                "issues": "https://github.com/thefeqy/laravel-model-status/issues",
+                "source": "https://github.com/thefeqy/laravel-model-status/tree/v1.0.0"
+            },
+            "time": "2025-01-17T16:42:35+00:00"
         },
         {
             "name": "tightenco/ziggy",
